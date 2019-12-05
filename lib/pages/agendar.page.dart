@@ -27,15 +27,9 @@ class AgendarPageState extends State<AgendarPage> {
 
   @override
   Widget build(BuildContext context){
-    return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.white,
-        title:Text(
-          "TrankIC",
-          style: TextStyle(color:Colors.purple,),
-        ),
-      ),
-      body:Center(
+    return Container(
+      color: Colors.white,
+      child: Center(
         child: Column(
           mainAxisAlignment:MainAxisAlignment.spaceEvenly,
           
@@ -95,7 +89,7 @@ class AgendarPageState extends State<AgendarPage> {
                     maxLength: 1,
                   )
                 ),
-             
+            
                 SizedBox(
                   width: 50,
                   child: TextField(
