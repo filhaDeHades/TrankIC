@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:trank_ic/pages/agendada.page.dart';
 
 class AgendarPage extends StatefulWidget {
   AgendarPageState createState()=> AgendarPageState();
@@ -18,7 +19,12 @@ class AgendarPageState extends State<AgendarPage> {
           MaterialButton(
             elevation: 5.0,
             child: Text("OK!"),
-            onPressed: (){},
+            onPressed: (){ Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => AgendadaPage(),
+                      ),
+                    );},
           )
         ],
       );
