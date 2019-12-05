@@ -70,7 +70,7 @@ class _BottomBar extends State<StatefulWidget>{
                
              });
           },
-          // selectedItemColor: Colors.purple,
+          selectedItemColor: Colors.purple,
         ),
       )
     );
