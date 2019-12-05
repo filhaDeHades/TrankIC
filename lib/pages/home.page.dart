@@ -47,7 +47,7 @@ class _BottomBar extends State<StatefulWidget>{
         backgroundColor: Colors.white,
         title:Text(
           "TrankIC",
-          style: TextStyle(color:Colors.purple,),
+          style: TextStyle(color:Colors.purple),
           ),
       ),
       body: Center(
